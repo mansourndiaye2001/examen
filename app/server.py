@@ -9,7 +9,7 @@ class SimpleHandler(BaseHTTPRequestHandler):
         self.end_headers()
         
         # Contenu de la réponse
-        message = "<html><body><h1>Mansour NDIAYE L3GL!</h1></body></html>"
+        message = "<html><body><h1>HELLO L3GL;!</h1></body></html>"
         self.wfile.write(message.encode("utf-8"))
 
 if __name__ == "__main__":
